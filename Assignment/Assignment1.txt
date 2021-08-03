@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Arithmetic Operation</title>
+    </head>
+    <body>
+        <h1>Assignment 1</h1>
+        <h3>Arithmetic operations</h3>
+        <script>
+            var a=10;
+            var b=20;
+            console.log("Value of a          :",a);
+            console.log("Value of b          :",b);
+            console.log("Addition        a+b :",a+b);
+            console.log("Substraction    b-a :",b-a);
+            console.log("Multiplication  a*b :",a*b);
+            console.log("Division        b/a :",b/a);
+
+        </script>
+    </body>
+</html>
