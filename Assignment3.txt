@@ -20,5 +20,7 @@
         <input id="city" type="text"  placeholder="city" value="">
         <br>
         <button type="submit" onclick="submit()">submit</button>
+        <h4 id="name1"></h4>
+        <h4 id="city1"></h4>
     </body>
 </html>
