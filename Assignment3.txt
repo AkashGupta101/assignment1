@@ -6,8 +6,9 @@
             function submit(){
                 var name=document.querySelector('#name').value;
                 var city=document.querySelector('#city').value;
-                console.log("Name :"+name);
-                console.log("City :"+city);
+               
+                document.querySelector('#name1').innerHTML="Name :"+name;
+                document.querySelector('#city1').innerHTML="City  :"+city;
             }
         </script>
     </head>
