@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment </title>
+        <script>
+            function submit(){
+                var name=document.querySelector('#name').value;
+                var city=document.querySelector('#city').value;
+                console.log("Name :"+name);
+                console.log("City :"+city);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Assignment 3</h1>
+        <h3>1.Create Two input fields for name and city and take their values and print it together on the page when the user clicks on the add button.</h3>
+        <input id="name" type="text" placeholder="Name" value="">
+        <br>
+        <input id="city" type="text"  placeholder="city" value="">
+        <br>
+        <button type="submit" onclick="submit()">submit</button>
+    </body>
+</html>
