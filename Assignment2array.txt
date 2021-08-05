@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array</title>
+        <script>
+            var a=["akash","mahesh","ajay","aman","vinay"]
+            for(var i=a.length-1;i>=0;i--){
+                console.log(a[i]);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Assignment 2</h1>
+        <h3>Create an Array with five names and print all five in reverse.</h3>
+    </body>
+</html>
